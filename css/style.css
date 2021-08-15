@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&display=swap");
+
+body {
+  font-family: "Amarath", sans-serif;
+}
+
+.my-jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 0;
+  background-color: antiquewhite;
+}
+
+.my-buttons {
+  background-color: #295b74;
+  color: white;
+}
+
+.card-ads {
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.img-ads {
+  max-height: 300px;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 576px) {
+  .my-logo {
+    text-align: center !important;
+  }
+  .my-logo > img {
+    width: 100px;
+  }
+  .my-title {
+    text-align: center;
+  }
+  .my-header {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .my-borders {
+    border-bottom: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .my-borders {
+    border-right: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .navbar-regular-screen {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 661px) {
+  .navbar-small-screen {
+    display: none;
+  }
+}
