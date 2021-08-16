@@ -10,9 +10,40 @@ body {
   background-color: antiquewhite;
 }
 
+.homepage {
+  border-radius: 17%;
+  text-align: center;
+  min-width: 370px;
+  min-height: 400px;
+  border: 1px solid black;
+}
+
+.homepage-1 {
+  background-color: #fce8e8;
+}
+
+.homepage-2 {
+  background-color: #fae5f3;
+}
+
+.homepage-3 {
+  background-color: #feffe7;
+}
+
+.homepage > p > a {
+  color: #035277;
+  text-decoration: underline;
+}
+
 .my-buttons {
   background-color: #295b74;
   color: white;
+}
+
+.my-carousel {
+  background-color: #ffffffd4;
+  color: black;
+  margin-bottom: 10px;
 }
 
 .card-ads {
@@ -25,11 +56,21 @@ body {
   min-height: 200px;
 }
 
+@media only screen and (max-width: 421px) {
+  .homepage {
+    min-width: 250px;
+  }
+  .my-carousel {
+    background-color: #ffffffb8;
+    font-size: smaller;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .my-logo {
     text-align: center !important;
   }
-  .my-logo > img {
+  .my-logo > a > img {
     width: 100px;
   }
   .my-title {
